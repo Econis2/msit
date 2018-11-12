@@ -1,0 +1,59 @@
+## Read Me File ##
+
+Examples of Interfaces
+
+ Example profile
+
+{
+    options:{
+        name: "test1"
+    },
+    data:{
+        key1: "value1",
+        key2: "value2"
+    }
+}
+
+ Example publicProfileOptions
+
+{
+    options:{
+    name: "test1",
+    path: "/some/file/destination",
+    delete: false
+    }
+}
+
+ Example Status
+
+{
+    code: 200,
+    msg: "OK"
+}
+
+ Example Payload
+
+{
+    code: 200,
+    msg: "OK",
+    profiles: [
+        {
+        options:{
+            name: "test1"
+        },
+        data:{
+            key1: "value1",
+            key2: "value2"
+        }
+        }
+        {
+        options:{
+            name: "test2"
+        },
+        data:{
+            key1: "value1",
+            key2: "value2"
+        }
+        }
+    ]
+}
