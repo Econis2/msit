@@ -1,0 +1,90 @@
+{
+    "south_routes":[
+        {
+            "id": 1,
+            "name":"ROUTE 1",
+            "origin":"ANTC",
+            "dest": "SFIA",
+            "line": "YELLOW",
+            "min": 2,
+            "delay": 0,
+            "next": [
+                {
+                    "id": "MONT",
+                    "min": 4,
+                    "delay": 0
+                },
+                {
+                    "id": "POWL",
+                    "min": 6,
+                    "delay": 0
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "ROUTE 6",
+            "origin": "WARM",
+            "dest": "DALY",
+            "line": "GREEN",
+            "min": 5,
+            "delay": 0,
+            "next": [
+                {
+                    "id": "MONT",
+                    "min": 7,
+                    "delay": 0
+                },
+                {
+                    "id": "POWL",
+                    "min": 9,
+                    "delay": 0
+                }
+            ]
+        }
+    ],
+    "north_routes":[
+        {
+            "id": 12,
+            "name":"ROUTE 12",
+            "origin":"DALY",
+            "dest": "DUBL",
+            "line": "BLUE",
+            "min": 2,
+            "delay": 0,
+            "next": [
+                {
+                    "id": "WOAK",
+                    "min": 6,
+                    "delay": 0
+                },
+                {
+                    "id": "LAKE",
+                    "min": 10,
+                    "delay": 0
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "ROUTE 8",
+            "origin": "MLBR",
+            "dest": "RICH",
+            "line": "RED",
+            "min": 5,
+            "delay": 0,
+            "next": [
+                {
+                    "id": "WOAK",
+                    "min": 7,
+                    "delay": 0
+                },
+                {
+                    "id": "12TH",
+                    "min": 11,
+                    "delay": 0
+                }
+            ]
+        }
+    ]
+}
